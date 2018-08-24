@@ -1,2 +1,2 @@
 # tempo
-my tempo app
+Tempo application using Act framework
