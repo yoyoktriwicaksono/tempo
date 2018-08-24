@@ -25,6 +25,7 @@
         <buildnumber-maven-plugin.version>1.4</buildnumber-maven-plugin.version>
         <logback.version>1.2.3</logback.version>
         <osgl-ut.version>1.0.1</osgl-ut.version>
+        <morphiaVersion>1.6.1</morphiaVersion>
         <act.version>1.8.7</act.version>
 
         <app.entry>com.scm.ojt.tempo.entry.TempoApp</app.entry>
@@ -137,6 +138,11 @@
             <groupId>org.actframework</groupId>
             <artifactId>act</artifactId>
             <version>${act.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.actframework</groupId>
+            <artifactId>act-morphia</artifactId>
+            <version>${morphiaVersion}</version>
         </dependency>
         <dependency>
             <groupId>ch.qos.logback</groupId>
